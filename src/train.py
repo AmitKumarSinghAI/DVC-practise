@@ -6,7 +6,8 @@ df = pd.DataFrame({
     'id': [1, 2, 3, 4, 5],
     'name': ['Alice', 'Bob', 'Charlie', 'Diana', 'Ethan'],
     'age': [25, 30, 35, 28, 22],
-    'city': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+    'city': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix'],
+    "country" : ["Nepal","India","America","Iceland","Dubai"]
 })
 
 # Create the "data" folder if it doesn't exist
