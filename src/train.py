@@ -3,11 +3,11 @@ from pathlib import Path
 
 # Create the dataframe
 df = pd.DataFrame({
-    'id': [1, 2, 3, 4, 5],
-    'name': ['Alice', 'Bob', 'Charlie', 'Diana', 'Ethan'],
-    'age': [25, 30, 35, 28, 22],
-    'city': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix'],
-    "country" : ["Nepal","India","America","Iceland","Dubai"]
+    'id': [1, 2, 3, 4, 5,6],
+    'name': ['Alice', 'Bob', 'Charlie', 'Diana', 'Ethan',"Amit"],
+    'age': [25, 30, 35, 28, 22,23],
+    'city': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix',"Kaplivastu"],
+    "country" : ["Nepal","India","America","Iceland","Dubai","Nepal"]
 })
 
 # Create the "data" folder if it doesn't exist
